@@ -1,0 +1,9 @@
+/authen-simple-ldap-*
+/.build
+/_build_params
+/Build
+/Build.bat
+!Build/
+!META.json
+!LICENSE
+/Authen-Simple-LDAP-*

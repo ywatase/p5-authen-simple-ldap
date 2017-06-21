@@ -1,0 +1,66 @@
+{
+   "abstract" : "Simple LDAP authentication",
+   "author" : [
+      "Christian Hansen C<chansen@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v3.0.12, CPAN::Meta::Converter version 2.142690",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Authen-Simple-LDAP",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author",
+         "builder"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build::Tiny" : "0.035"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion::Fast" : "0.04",
+            "Test::PAUSE::Permissions" : "0.04",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.7"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Authen::Simple" : "0",
+            "Net::LDAP" : "0"
+         }
+      }
+   },
+   "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/ywatase/p5-authen-simple-ldap/issues"
+      },
+      "homepage" : "https://github.com/ywatase/p5-authen-simple-ldap",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/ywatase/p5-authen-simple-ldap.git",
+         "web" : "https://github.com/ywatase/p5-authen-simple-ldap"
+      }
+   },
+   "version" : "0.3",
+   "x_contributors" : [
+      "Yusuke Watase <ywatase@gmail.com>"
+   ]
+}

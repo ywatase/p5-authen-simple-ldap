@@ -1,5 +1,7 @@
 Revision history for Perl extension Authen::Simple::LDAP
 
+{{$NEXT}}
+
 0.3 2012-04-19
     - Corrected typos in arguments passed to Net::LDAP constructor (RT #65426)
     - Changed Perl module installer from Module::Build to Module::Install
