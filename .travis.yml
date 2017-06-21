@@ -1,0 +1,11 @@
+---
+language: perl
+perl:
+  - "5.10"
+  - "5.20"
+  - "5.22"
+  - "5.24"
+notifications:
+  email:
+    on_success: always
+    on_failure: always
